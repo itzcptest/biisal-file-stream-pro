@@ -225,7 +225,7 @@ async def cb_handler(client, query):
     
     elif data == "about":
         await query.message.edit_caption(
-            caption=f"<b>◈ Mʏ ɴᴀᴍᴇ :<a href=https://t.me/Filestream_cpbot>File Stream Bot\n◈ Aᴅᴍɪɴ : <a href=https://t.me/Itzmecp>Itzmecp\n◈ ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n◈ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n◈ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</a></b>",
+            caption=f"<b>◈ Mʏ ɴᴀᴍᴇ :<a href=https://t.me/Filestream_cpbot>File Stream Bot</a>\n◈ Aᴅᴍɪɴ : <a href=https://t.me/Itzmecp></a>Itzmecp\n◈ ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n◈ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n◈ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
